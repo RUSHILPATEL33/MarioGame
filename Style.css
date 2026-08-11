@@ -1,0 +1,66 @@
+body{
+            background-color: skyblue;
+        }
+        .ground{
+            width: 90vw;
+            height: 50px;
+            background-color: green;
+            border:2px solid black;
+            position: relative;
+            top: 260px;
+        }
+        .mario{
+            width:5%;
+            height:50px;
+            border:2px solid black;
+            background-color: rgb(219, 18, 18);
+            position: relative;
+            top: 150px;
+            color: white;
+            display:inline-block;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        .obstacle{
+            width:5%;
+            height:50px;
+            border:2px solid black;
+            background-color: yellow;
+            position: relative;
+            top: 150px;
+            left: 300px;
+
+            color: white;
+           display: inline-block;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        .gameOver{
+
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 50px;
+            color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            border: 2px solid black;
+        }
+        .scoreboard{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            gap: 20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+        }
+        
